@@ -1,0 +1,6 @@
+.books_container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../utils/images/bglogin.jpg");
+  padding: 2rem 4rem;
+}

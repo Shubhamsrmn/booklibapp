@@ -1,0 +1,69 @@
+.booklist_container {
+  width: 100%;
+  height: max-content;
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  position: relative;
+}
+.booklist_header {
+  height: 12vh;
+  background: #537fe7;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.booklist_title {
+  font-size: 4rem;
+}
+.createbook_btn {
+  background: white;
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border-radius: 12px;
+  transition: 500ms all ease-in-out;
+}
+.createbook_btn:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.booklist_subcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+.singlebook {
+  width: 250px;
+  height: max-content;
+  background: #f6f1e9;
+  padding: 10px;
+  text-align: center;
+}
+.singlebook_title {
+  text-align: start;
+  margin-bottom: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block ruby;
+}
+.singlebook_icon_container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.singlebook_icon_btn {
+  background: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.singlebook_icon_btn:hover {
+  transform: scale(1.2);
+}
+.active {
+  filter: blur(30px);
+}

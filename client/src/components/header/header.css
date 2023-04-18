@@ -1,0 +1,33 @@
+.nav_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 32px;
+  margin-bottom: 2rem;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo_title {
+  font-size: 3.2rem;
+}
+.logout_btn {
+  border: 1px solid #537fe7;
+  cursor: pointer;
+  background: #537fe7;
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: white;
+  border-radius: 10px;
+  transition: 300ms all ease-in;
+}
+.logout_btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

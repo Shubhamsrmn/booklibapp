@@ -1,0 +1,16 @@
+.singlefullbook_container {
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.singlefullbook_text {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  gap: 2rem;
+}
+.fullbook_link {
+  color: blue;
+}
