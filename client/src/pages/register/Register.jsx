@@ -25,6 +25,7 @@ function RegisterPage() {
     const data = await response.json();
 
     if (data.status === "ok") {
+      alert("register successfully");
       navigate("/login");
     } else console.log("login failed");
   }

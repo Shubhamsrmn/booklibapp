@@ -14,6 +14,7 @@ router.get("/api/books/:id", async (req, res) => {
     res.json({ status: "error", error: "invalid token" });
   }
 });
+//detele book
 router.post("/api/books/:id", async (req, res) => {
   try {
     const { id } = req.params;
@@ -25,6 +26,7 @@ router.post("/api/books/:id", async (req, res) => {
     res.json({ status: "error", error: "invalid token" });
   }
 });
+// create book
 router.post("/api/book/create", async (req, res) => {
   try {
     console.log(req.body);
@@ -44,6 +46,7 @@ router.post("/api/book/create", async (req, res) => {
     res.json({ status: "error", error: "invalid token" });
   }
 });
+// update book
 router.post("/api/book/update", async (req, res) => {
   try {
     let doc = await Book.findById(req.body.id);

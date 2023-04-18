@@ -30,7 +30,7 @@ const SingleFullBook = () => {
         <img src={fullbook.imageLink} alt="" width={300} height={600} />
         <div className="singlefullbook_text">
           <span>Title : {fullbook.title}</span>
-          <span>Author: {fullbook.title}</span>
+          <span>Author: {fullbook.author}</span>
           <span>Language: {fullbook.language}</span>
           <span>Country: {fullbook.country}</span>
           <span>Pages: {fullbook.pages}</span>

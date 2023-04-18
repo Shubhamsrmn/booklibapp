@@ -16,7 +16,13 @@ const Header = () => {
           </div>
         </li>
         <li>
-          <button className="logout_btn" onClick={() => navigate("/login")}>
+          <button
+            className="logout_btn"
+            onClick={() => {
+              localStorage.removeItem("token");
+              navigate("/login");
+            }}
+          >
             Log Out
           </button>
         </li>
